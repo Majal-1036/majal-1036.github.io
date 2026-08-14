@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Adaptive filtering with correlated measurements</title>
+  <desc id="desc">Correlated sensor observations feed a nonlinear filter with an expectation-maximization adaptation loop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a33"/><stop offset="1" stop-color="#164b8f"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf5ff"/><stop offset="1" stop-color="#cfe2ff"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="640" height="360" rx="26" fill="url(#bg)"/>
+  <g opacity=".15" stroke="#9fc5ff"><path d="M0 60H640M0 120H640M0 180H640M0 240H640M0 300H640"/><path d="M80 0V360M160 0V360M240 0V360M320 0V360M400 0V360M480 0V360M560 0V360"/></g>
+  <g fill="#e7f1ff" font-family="Arial, sans-serif" font-size="15" font-weight="700"><text x="54" y="47">CORRELATED SENSORS</text><text x="409" y="47">ADAPTIVE FILTER</text></g>
+  <g stroke="#8db9f2" stroke-width="3" opacity=".7"><path d="M100 102L100 258M100 102L210 150M100 180L210 150M100 258L210 150"/><path d="M100 102L210 236M100 180L210 236M100 258L210 236"/></g>
+  <g>
+    <g fill="#f6fbff" stroke="#9fc5ff" stroke-width="3"><circle cx="100" cy="102" r="25"/><circle cx="100" cy="180" r="25"/><circle cx="100" cy="258" r="25"/></g>
+    <g fill="#164b8f" font-family="Arial, sans-serif" font-weight="700" font-size="15" text-anchor="middle"><text x="100" y="107">y₁</text><text x="100" y="185">y₂</text><text x="100" y="263">y₃</text></g>
+    <rect x="210" y="118" width="145" height="154" rx="20" fill="url(#panel)" stroke="#9fc5ff" stroke-width="3"/>
+    <text x="282" y="170" fill="#0b2447" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">Bayesian</text><text x="282" y="198" fill="#0b2447" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">filter</text>
+    <rect x="421" y="103" width="151" height="87" rx="18" fill="#ffffff" stroke="#9fc5ff" stroke-width="3"/>
+    <text x="496" y="139" fill="#0b2447" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">E-step</text><text x="496" y="165" fill="#526681" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">outlier inference</text>
+    <rect x="421" y="216" width="151" height="87" rx="18" fill="#ffffff" stroke="#9fc5ff" stroke-width="3"/>
+    <text x="496" y="252" fill="#0b2447" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">M-step</text><text x="496" y="278" fill="#526681" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">noise adaptation</text>
+  </g>
+  <g fill="none" stroke="#6fd8ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M355 157H407"/><path d="M496 190V204"/><path d="M421 260H385Q370 260 370 245V195"/></g>
+  <g fill="#6fd8ff"><path d="M405 150l13 7-13 7z"/><path d="M489 202l7 13 7-13z"/><path d="M363 198l7-13 7 13z"/></g>
+  <g><circle cx="100" cy="102" r="7" fill="#ff6685"/><path d="M87 88l26 28M113 88l-26 28" stroke="#ff6685" stroke-width="4" stroke-linecap="round"/></g>
+</svg>

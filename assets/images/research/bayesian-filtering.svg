@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Bias detecting and mitigating Bayesian filter</title><desc id="desc">Hidden state and bias variables explain an observation and produce a corrected posterior estimate.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b2447"/><stop offset="1" stop-color="#1759b3"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity=".25"/></filter></defs>
+  <rect width="640" height="360" rx="26" fill="url(#bg)"/>
+  <g opacity=".12" fill="none" stroke="#fff"><circle cx="112" cy="180" r="100"/><circle cx="112" cy="180" r="72"/><circle cx="112" cy="180" r="44"/></g>
+  <g>
+    <circle cx="122" cy="130" r="48" fill="#eaf3ff" stroke="#9fc5ff" stroke-width="3"/>
+    <circle cx="122" cy="244" r="48" fill="#ffeef2" stroke="#ff9ab0" stroke-width="3"/>
+    <circle cx="296" cy="187" r="53" fill="#fff" stroke="#9fc5ff" stroke-width="3"/>
+    <rect x="414" y="100" width="168" height="174" rx="22" fill="#f7fbff" stroke="#9fc5ff" stroke-width="3"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle"><text x="122" y="124" fill="#0b2447" font-size="17" font-weight="700">state</text><text x="122" y="149" fill="#1759b3" font-size="24" font-weight="700">xₖ</text><text x="122" y="238" fill="#5b1f35" font-size="17" font-weight="700">bias</text><text x="122" y="263" fill="#c53d66" font-size="24" font-weight="700">bₖ</text><text x="296" y="181" fill="#0b2447" font-size="16" font-weight="700">observation</text><text x="296" y="207" fill="#1759b3" font-size="24" font-weight="700">yₖ</text><text x="498" y="138" fill="#0b2447" font-size="16" font-weight="700">POSTERIOR</text><text x="498" y="183" fill="#1759b3" font-size="30" font-weight="700">p(xₖ | y)</text><text x="498" y="226" fill="#526681" font-size="13">bias detected</text><text x="498" y="246" fill="#1e6b4f" font-size="15" font-weight="700">and mitigated</text></g>
+  <g fill="none" stroke="#7bdcff" stroke-width="4" stroke-linecap="round"><path d="M170 142L240 168"/><path d="M169 224L240 202"/><path d="M349 187H397"/></g>
+  <g fill="#7bdcff"><path d="M237 160l15 12-18 2z"/><path d="M238 194l14 2-15 11z"/><path d="M394 180l15 7-15 7z"/></g>
+</svg>

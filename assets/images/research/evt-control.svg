@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Extreme value bounds for vision-based control</title><desc id="desc">A nominal control trajectory is surrounded by a statistical error envelope with an inset tail distribution.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a33"/><stop offset="1" stop-color="#185c9b"/></linearGradient><linearGradient id="tube" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#66d4ff" stop-opacity=".05"/><stop offset=".5" stop-color="#66d4ff" stop-opacity=".5"/><stop offset="1" stop-color="#66d4ff" stop-opacity=".05"/></linearGradient></defs>
+  <rect width="640" height="360" rx="26" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#b9d8ff"><path d="M45 58H595M45 118H595M45 178H595M45 238H595M45 298H595"/><path d="M95 35V322M175 35V322M255 35V322M335 35V322M415 35V322M495 35V322M575 35V322"/></g>
+  <path d="M54 270C123 235 139 157 212 185S310 278 389 205s118-117 190-105" fill="none" stroke="url(#tube)" stroke-width="76" stroke-linecap="round"/>
+  <path d="M54 270C123 235 139 157 212 185S310 278 389 205s118-117 190-105" fill="none" stroke="#e9f7ff" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#6fd8ff"><circle cx="54" cy="270" r="9"/><circle cx="212" cy="185" r="9"/><circle cx="389" cy="205" r="9"/><circle cx="579" cy="100" r="9"/></g>
+  <g transform="translate(392 46)"><rect width="178" height="116" rx="17" fill="#f7fbff" opacity=".96"/><path d="M23 91H153M23 91V20" stroke="#7795b8" stroke-width="2"/><path d="M25 88C45 87 50 76 66 57s27-33 43-30 20 23 42 58" fill="none" stroke="#2168c7" stroke-width="4"/><path d="M110 28C127 31 140 47 151 84" fill="none" stroke="#ff6685" stroke-width="4" stroke-dasharray="5 5"/><text x="113" y="19" fill="#c53d66" font-family="Arial, sans-serif" font-size="11" font-weight="700">EXTREME TAIL</text></g>
+  <g fill="#eaf3ff" font-family="Arial, sans-serif"><text x="53" y="47" font-size="15" font-weight="700">STATISTICAL PERCEPTION-ERROR ENVELOPE</text><text x="66" y="304" font-size="12">nominal trajectory</text></g>
+</svg>

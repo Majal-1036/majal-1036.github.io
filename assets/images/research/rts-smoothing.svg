@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Forward filtering and backward smoothing</title><desc id="desc">A time sequence shows forward estimates and a backward smoothing pass that selectively rejects outliers.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a33"/><stop offset="1" stop-color="#113f75"/></linearGradient><linearGradient id="band" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2168c7" stop-opacity=".15"/><stop offset=".5" stop-color="#69d6ff" stop-opacity=".4"/><stop offset="1" stop-color="#2168c7" stop-opacity=".15"/></linearGradient></defs>
+  <rect width="640" height="360" rx="26" fill="url(#bg)"/>
+  <path d="M58 232C125 174 163 251 225 192S339 112 394 165s101 33 188-60" fill="none" stroke="url(#band)" stroke-width="74" stroke-linecap="round"/>
+  <path d="M58 232C125 174 163 251 225 192S339 112 394 165s101 33 188-60" fill="none" stroke="#6fd8ff" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#eaf3ff" stroke="#8db9f2" stroke-width="3"><circle cx="74" cy="221" r="17"/><circle cx="164" cy="221" r="17"/><circle cx="255" cy="166" r="17"/><circle cx="346" cy="137" r="17"/><circle cx="438" cy="177" r="17"/><circle cx="548" cy="127" r="17"/></g>
+  <g fill="#0b2447"><circle cx="74" cy="221" r="5"/><circle cx="164" cy="221" r="5"/><circle cx="255" cy="166" r="5"/><circle cx="346" cy="137" r="5"/><circle cx="438" cy="177" r="5"/><circle cx="548" cy="127" r="5"/></g>
+  <g fill="none" stroke="#3d86dc" stroke-width="4"><path d="M83 282H549"/><path d="M540 275l14 7-14 7z"/></g>
+  <text x="76" y="315" fill="#b8d6f8" font-family="Arial, sans-serif" font-size="14" font-weight="700">FORWARD FILTER</text>
+  <g fill="none" stroke="#b0edff" stroke-width="4"><path d="M548 75H83"/><path d="M92 68l-14 7 14 7z"/></g>
+  <text x="433" y="57" fill="#eaf8ff" font-family="Arial, sans-serif" font-size="14" font-weight="700">BACKWARD SMOOTHER</text>
+  <g stroke="#ff6685" stroke-width="5" stroke-linecap="round"><path d="M237 80l28 28M265 80l-28 28M418 248l28 28M446 248l-28 28"/></g>
+  <g fill="#ff9ab0" font-family="Arial, sans-serif" font-size="12" font-weight="700"><text x="225" y="69">REJECT</text><text x="405" y="294">REJECT</text></g>
+</svg>

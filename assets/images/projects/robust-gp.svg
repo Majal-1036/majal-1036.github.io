@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Robust Gaussian process regression</title><desc id="desc">A Gaussian process mean and uncertainty band fit observations while down-weighting outliers.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a33"/><stop offset="1" stop-color="#174f8d"/></linearGradient><linearGradient id="band" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#6fd8ff" stop-opacity=".52"/><stop offset="1" stop-color="#6fd8ff" stop-opacity=".08"/></linearGradient></defs>
+  <rect width="640" height="360" rx="26" fill="url(#bg)"/>
+  <g stroke="#b7d3f3" opacity=".26"><path d="M66 45V303H590M66 88H590M66 131H590M66 174H590M66 217H590M66 260H590"/><path d="M140 45V303M214 45V303M288 45V303M362 45V303M436 45V303M510 45V303"/></g>
+  <path d="M68 218C132 276 183 138 246 170s91 93 155 19 117-98 187-39V246c-70-64-125-23-186 45s-100 13-160-20-111 97-174 29z" fill="url(#band)"/>
+  <path d="M68 258C132 316 183 178 246 210s91 93 155 19 117-98 187-39" fill="none" stroke="#e9f7ff" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#74b5ff" stroke="#dcebff" stroke-width="2"><circle cx="91" cy="267" r="7"/><circle cx="124" cy="288" r="7"/><circle cx="165" cy="235" r="7"/><circle cx="215" cy="194" r="7"/><circle cx="257" cy="220" r="7"/><circle cx="312" cy="267" r="7"/><circle cx="361" cy="261" r="7"/><circle cx="425" cy="188" r="7"/><circle cx="479" cy="151" r="7"/><circle cx="548" cy="176" r="7"/></g>
+  <g fill="#ff6685" stroke="#ffd1db" stroke-width="2"><circle cx="178" cy="77" r="9"/><circle cx="328" cy="87" r="9"/><circle cx="517" cy="279" r="9"/></g>
+  <g stroke="#ff9ab0" stroke-width="3"><path d="M167 66l22 22M189 66l-22 22M317 76l22 22M339 76l-22 22M506 268l22 22M528 268l-22 22"/></g>
+  <g fill="#eaf3ff" font-family="Arial, sans-serif" font-size="13" font-weight="700"><text x="76" y="36">PREDICTIVE UNCERTAINTY</text><text x="436" y="332">OUTLIERS DOWN-WEIGHTED</text></g>
+</svg>
