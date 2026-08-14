@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected research by Arslan Majal in robust Bayesian estimation, machine learning, GNSS reliability, and vision-based control.">
+  <title>Research | Arslan Majal</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="research">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Arslan Majal home">AM<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+      <div class="nav-panel" id="nav-panel">
+        <div class="nav-links">
+          <a href="index.html" data-page-link="home">Home</a><a href="research.html" data-page-link="research">Research</a><a href="publications.html" data-page-link="publications">Publications</a><a href="projects.html" data-page-link="projects">Projects</a><a href="teaching.html" data-page-link="teaching">Teaching</a><a href="assets/files/Arslan_Majal_CV.pdf" target="_blank" rel="noopener">CV</a>
+        </div>
+        <div class="social-links" aria-label="Professional profiles"><a class="social-link" href="https://www.linkedin.com/in/arslan-majal-06828b2b1" target="_blank" rel="noopener" aria-label="LinkedIn">in</a><a class="social-link" href="https://github.com/Majal-1036" target="_blank" rel="noopener" aria-label="GitHub">GH</a><a class="social-link" href="https://scholar.google.com/citations?hl=en&amp;user=iQ3lR7IAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">GS</a><a class="social-link" href="mailto:majal.wisc@gmail.com" aria-label="Email Arslan Majal">@</a></div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="container page-header"><p class="eyebrow">Selected research</p><h1>Reliable learning and estimation under imperfect data</h1><p>My work develops probabilistic and learning-based methods that remain useful when measurements are biased, correlated, heteroscedastic, or contaminated by outliers.</p></div>
+    <section class="section">
+      <div class="container media-list">
+        <article class="media-card">
+          <img src="assets/images/research/emorf.svg" alt="Diagram illustrating adaptive filtering with correlated measurements">
+          <div class="media-content"><p class="eyebrow">Adaptive robust filtering</p><h2>EMORF-II: Adaptive EM-Based Outlier-Robust Filtering</h2><p>EMORF-II addresses nonlinear state estimation when measurement noise is correlated and observations contain outliers. The method combines Bayesian inference with Expectation-Maximization to estimate the system state, detect outliers, and adapt their characteristics during inference, reducing reliance on manually chosen outlier parameters.</p><p><strong>Contribution:</strong> Led the development, implementation, simulation design, and evaluation of the method across changing outlier probabilities and sensor configurations.</p><div class="tag-row"><span class="tag">Expectation-Maximization</span><span class="tag">Correlated noise</span><span class="tag">Nonlinear filtering</span></div><div class="button-row"><a class="button" href="https://ieeexplore.ieee.org/document/11204236/" target="_blank" rel="noopener">IEEE paper</a><a class="button secondary" href="https://arxiv.org/abs/2509.07415" target="_blank" rel="noopener">arXiv</a></div></div>
+        </article>
+
+        <article class="media-card">
+          <img src="assets/images/research/rts-smoothing.svg" alt="Diagram showing forward filtering and backward smoothing with rejected outliers">
+          <div class="media-content"><p class="eyebrow">Trajectory reconstruction</p><h2>Outlier-Robust Unscented RTS Smoothing</h2><p>This work introduces an Unscented Rauch–Tung–Striebel smoother that selectively suppresses corrupted measurement dimensions instead of discarding an entire observation vector. The approach preserves useful sensor information and improves offline trajectory reconstruction in multi-sensor systems.</p><p><strong>Contribution:</strong> Developed the algorithm and MATLAB implementation, designed the experiments, and benchmarked its accuracy and computational scaling against contemporary robust smoothers.</p><div class="tag-row"><span class="tag">Variational Bayes</span><span class="tag">RTS smoothing</span><span class="tag">Sensor fusion</span></div><div class="button-row"><a class="button" href="https://ieeexplore.ieee.org/document/10680401/" target="_blank" rel="noopener">IEEE paper</a><a class="button secondary" href="https://arxiv.org/abs/2410.20411" target="_blank" rel="noopener">Related preprint</a></div></div>
+        </article>
+
+        <article class="media-card">
+          <img src="assets/images/research/bayesian-filtering.svg" alt="Probabilistic diagram for detecting and mitigating biased observations">
+          <div class="media-content"><p class="eyebrow">Bias-aware estimation</p><h2>Variational Bayesian Filtering with Biased Observations</h2><p>The Bias Detecting and Mitigating filter embeds bias detection directly within nonlinear Bayesian filtering. It models the unknown presence and magnitude of measurement bias, then uses variational inference to compensate for both temporary and persistent bias without depending on a separate external detector.</p><p><strong>Contribution:</strong> Contributed to algorithm development, MATLAB implementation, numerical evaluation, and comparison with nonlinear filtering baselines and theoretical error bounds.</p><div class="tag-row"><span class="tag">Bias detection</span><span class="tag">Variational inference</span><span class="tag">State estimation</span></div><div class="button-row"><a class="button" href="https://ieeexplore.ieee.org/document/9931968/" target="_blank" rel="noopener">IEEE paper</a><a class="button secondary" href="https://arxiv.org/abs/2112.14432" target="_blank" rel="noopener">arXiv</a></div></div>
+        </article>
+
+        <article class="media-card">
+          <img src="assets/images/research/gnss.svg" alt="GNSS signal spectrogram feeding a compact contrastive-learning model">
+          <div class="media-content"><p class="eyebrow">Reliable GNSS</p><h2>Dictionary-Based Contrastive Learning for GNSS Jamming Detection</h2><p>This work develops a compact contrastive-learning pipeline for detecting GNSS interference from spectrogram representations of raw IQ data. Dictionary-based representation learning, structured pruning, and knowledge distillation improve class separation in limited-data settings while reducing memory and inference demands for embedded deployment.</p><p><strong>Contribution:</strong> Co-developed the learning framework and contributed to model compression, experiments, benchmarking, and manuscript preparation.</p><div class="tag-row"><span class="tag">Contrastive learning</span><span class="tag">GNSS</span><span class="tag">Model compression</span></div><div class="button-row"><a class="button" href="https://arxiv.org/abs/2512.07512" target="_blank" rel="noopener">arXiv paper</a></div></div>
+        </article>
+
+        <article class="media-card">
+          <img src="assets/images/research/evt-control.svg" alt="Vision-based control trajectory surrounded by an uncertainty envelope">
+          <div class="media-content"><p class="eyebrow">M.S. thesis</p><h2>Extreme-Value-Theory Error Bounds for Vision-Based Control</h2><p>My master’s research used Extreme Value Theory to estimate local norm error bounds for learning-based and model-based perception algorithms. The work focuses on statistically characterizing perception errors near nominal trajectories so that vision-based control systems can reason more explicitly about uncertainty and safety.</p><p><strong>Contribution:</strong> Developed the EVT-based methodology, created simulation and evaluation pipelines, analyzed perception-error growth, and documented the work in my M.S. thesis.</p><div class="tag-row"><span class="tag">Extreme Value Theory</span><span class="tag">Perception</span><span class="tag">Robust control</span></div><div class="button-row"><a class="button secondary" href="https://xu.me.wisc.edu/team/" target="_blank" rel="noopener">ARC Lab profile</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container"><div class="section-heading"><p class="eyebrow">Ongoing research directions</p><h2>Current questions</h2><p>These themes guide ongoing work and will be expanded as manuscripts and code become public.</p></div><div class="grid-4">
+        <article class="card direction-card"><div class="direction-number">01</div><h3>Robust Gaussian Process Regression</h3><p>Learning predictive functions and uncertainty while adapting to outliers and unknown nominal noise.</p></article>
+        <article class="card direction-card"><div class="direction-number">02</div><h3>Outlier-Robust Neural Network Training</h3><p>Down-weighting corrupted labels and training samples without assuming known contamination levels.</p></article>
+        <article class="card direction-card"><div class="direction-number">03</div><h3>Uncertainty-Aware and Adaptive Bayesian Filtering</h3><p>Jointly learning noise, outlier behavior, and system state as sensing conditions evolve.</p></article>
+        <article class="card direction-card"><div class="direction-number">04</div><h3>Machine Learning under Heteroscedastic Noise</h3><p>Developing models that account for input-dependent and nonuniform uncertainty in observed data.</p></article>
+      </div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span data-current-year></span> Arslan Majal</p><div class="footer-links"><a href="mailto:majal.wisc@gmail.com">Email</a><a href="publications.html">Publications</a><a href="https://scholar.google.com/citations?hl=en&amp;user=iQ3lR7IAAAAJ" target="_blank" rel="noopener">Google Scholar</a></div></div></footer>
+</body>
+</html>
